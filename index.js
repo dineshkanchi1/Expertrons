@@ -1,5 +1,8 @@
-
-const mongoos = require('mongo');
+const express = require('express');
+const app = express();
+const mongoos = require('mongodb');
+mongoos.connect('mongodb://localhost/Mentor').then(()=>console.log("Connected")).catch('error');
+app.use(express.json());
 const mentors = [
     {
         id:1,

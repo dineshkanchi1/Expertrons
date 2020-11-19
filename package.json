@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/dineshkanchi1/Expertrons#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "mongo": "^0.1.0"
   }
 }
