@@ -1,2 +1,50 @@
 
 const mongoos = require('mongo');
+const mentors = [
+    {
+        id:1,
+        name:"mrigank",
+        company:"Visa",
+        availabilityHours:10
+    },
+    {
+        id:2,
+        name:"Sandeep",
+        company:"Amazon",
+        availabilityHours:10
+    },
+    {
+        id:3,
+        name:"Govind",
+        company:"Visa",
+        availabilityHours:9
+    },
+    {
+        id:4,
+        name:"Gaurav",
+        company:"AJIO",
+        availabilityHours:8
+    },
+];
+const mentees = [
+    {
+        id:1,
+        name:"Dinesh",
+    },
+    {
+        id:2,
+        name:"Archana",
+    },
+    {
+        id:3,
+        name:"Sowji",
+    },
+    {
+        id:4,
+        name:"MPK",
+    },
+    {
+        id:5,
+        name:"Suresh",
+    },
+];
