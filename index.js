@@ -8,7 +8,17 @@ const mentors = [
         id:1,
         name:"mrigank",
         company:"Visa",
-        availabilityHours:10
+        availabilityHours:10,
+        mentees:[2],
+        sessions: [{
+            menteeId: 2,
+            duration: 60,
+            statTime: new Date()
+        },{
+            menteeId: 1,
+            duration: 60,
+            statTime: new Date()
+        }]
     },
     {
         id:2,
