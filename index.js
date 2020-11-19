@@ -13,11 +13,11 @@ const mentors = [
         sessions: [{
             menteeId: 2,
             duration: 60,
-            statTime: new Date()
+            startTime: new Date()
         },{
             menteeId: 1,
             duration: 60,
-            statTime: new Date()
+            startTime: new Date()
         }]
     },
     {
@@ -43,6 +43,11 @@ const mentees = [
     {
         id:1,
         name:"Dinesh",
+        sessions: {
+            mentorId: 1,
+            duration: 60,
+            startTime: new Date()
+        }
     },
     {
         id:2,
