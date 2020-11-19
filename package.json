@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dineshkanchi1/Expertrons/issues"
   },
-  "homepage": "https://github.com/dineshkanchi1/Expertrons#readme"
+  "homepage": "https://github.com/dineshkanchi1/Expertrons#readme",
+  "dependencies": {
+    "mongo": "^0.1.0"
+  }
 }
